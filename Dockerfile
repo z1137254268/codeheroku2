@@ -46,8 +46,8 @@ RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 # Install weget
-RUN apt-get install wget -y
-RUN apt-get install yum
-RUN apt-get install screen
+RUN sudo apt-get install wget -y
+RUN sudo apt-get install yum -y
+RUN sudo apt-get install screen -y
 
 # Install 
