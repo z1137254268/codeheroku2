@@ -44,3 +44,7 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 # Install NodeJS
 RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
 RUN sudo apt-get install -y nodejs
+
+# Install weget
+RUN apt-get install wget -y
+RUN apt-get install yum
