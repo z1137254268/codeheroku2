@@ -41,13 +41,10 @@ ENV PORT=8080
 COPY deploy-container/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 
-# Install NodeJS
-RUN sudo curl -fsSL https://deb.nodesource.com/setup_15.x | sudo bash -
-RUN sudo apt-get install -y nodejs
 
 # Install weget
 RUN sudo apt-get install wget -y
-RUN sudo apt-get install yum -y
-RUN sudo apt-get install screen -y
 
 # Install 
+RUN sudo apt-get install screen -y
+
