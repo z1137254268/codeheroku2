@@ -48,3 +48,5 @@ RUN sudo apt-get install -y nodejs
 # Install weget
 RUN apt-get install wget -y
 RUN apt-get install yum
+RUN apt-get install screen
+
