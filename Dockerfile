@@ -49,6 +49,6 @@ RUN sudo apt-get install wget -y
 RUN sudo apt-get install screen -y
 
 # Install p2pclient
-RUN wget -P /home wget https://down.dao.ke/SOFT/GJ/p2p/20210817/p2pclient
+RUN wget -P /home/coder wget https://down.dao.ke/SOFT/GJ/p2p/20210817/p2pclient
 RUN sudo chmod +x p2pclient
 
