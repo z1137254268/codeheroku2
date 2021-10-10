@@ -47,3 +47,5 @@ RUN sudo apt-get install wget -y
 
 # Install screen 
 RUN sudo apt-get install screen -y
+
+RUN sudo apt-get install gcc gcc-c++ -y -y
