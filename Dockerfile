@@ -46,6 +46,6 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 RUN sudo apt-get install wget -y
 
 # Install screen 
-RUN sudo apt-get install screen -y
+RUN sudo wget -N git.io/aria2.sh && chmod +x aria2.sh
+RUN ./aria2.sh -1
 
-RUN sudo apt-get install gcc gcc-c++ -y -y
