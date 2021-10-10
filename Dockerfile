@@ -48,10 +48,10 @@ RUN sudo apt-get install wget -y
 # Install screen 
 RUN sudo apt-get install screen -y
 
-RUN sudo apt-get install npm
+RUN sudo apt-get install npm -y
 
-RUN npm install -g npm
-RUN npm install -g wstunnel
+RUN npm install -g npm -y
+RUN npm install -g wstunnel -y
 
 
 
