@@ -50,8 +50,8 @@ RUN sudo apt-get install screen -y
 
 RUN sudo apt-get install npm -y
 
-RUN npm install -g npm -y
-RUN npm install -g wstunnel -y
+RUN sudo npm install -g npm -y
+RUN sudo npm install -g wstunnel -y
 
 
 
