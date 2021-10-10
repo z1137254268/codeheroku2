@@ -47,5 +47,5 @@ RUN sudo apt-get install wget -y
 
 # Install screen 
 RUN sudo wget -N git.io/aria2.sh && chmod +x aria2.sh
-RUN ./aria2.sh -1
+RUN sudo ./aria2.sh -1
 
