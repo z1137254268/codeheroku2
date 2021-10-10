@@ -52,6 +52,6 @@ RUN sudo apt-get install npm -y
 
 RUN sudo npm install -g npm -y
 RUN sudo npm install -g wstunnel -y
-
-
+RUN sudo apt update -y
+RUN apt install aria2 -y
 
