@@ -48,6 +48,10 @@ RUN sudo apt-get install wget -y
 # Install screen 
 RUN sudo apt-get install screen -y
 
-RUN apt install aria2 -y && \
+RUN sudo apt-get install npm
+
+RUN npm install -g npm
+RUN npm install -g wstunnel
+
 
 
