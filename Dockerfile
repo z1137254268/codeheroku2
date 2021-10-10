@@ -55,5 +55,3 @@ RUN sudo npm install -g wstunnel -y
 RUN sudo apt update -y
 RUN sudo apt install aria2 -y
 RUN sudo apt-get install iptables -y
-RUN sudo iptables -I INPUT -p tcp --dport 6800 -j ACCEPT
-RUN sudo iptables-save
