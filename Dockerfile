@@ -45,7 +45,6 @@ COPY deploy-container/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 
 
-
 # Install screen 
 RUN sudo apt-get install screen -y
 
