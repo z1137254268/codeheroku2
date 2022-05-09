@@ -56,3 +56,5 @@ RUN sudo apt update -y
 RUN sudo apt install aria2 -y
 RUN sudo apt-get install iptables -y
 RUN sudo apt-get -y install fuse
+RUN sudo apt unzip -y
+
