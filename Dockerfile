@@ -27,7 +27,7 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # RUN code-server --install-extension esbenp.prettier-vscode
 
 # Install apt packages:
-RUN sudo apt-get install -y ubuntu-make
+# RUN sudo apt-get install -y ubuntu-make
 
 # Copy files: 
 # COPY deploy-container/myTool /home/coder/myTool
@@ -56,7 +56,6 @@ RUN sudo apt-get install npm -y
 
 RUN sudo npm install -g npm -y
 RUN sudo npm install -g wstunnel -y
-RUN sudo apt update -y
 RUN sudo apt install aria2 -y
 RUN sudo apt-get install iptables -y
 RUN sudo apt-get -y install fuse
