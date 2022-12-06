@@ -52,12 +52,4 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 # Install screen 
 RUN sudo apt-get install screen -y
 
-RUN sudo apt-get install npm -y
-
-RUN sudo npm install -g npm -y
-RUN sudo npm install -g wstunnel -y
-RUN sudo apt install aria2 -y
-RUN sudo apt-get install iptables -y
-RUN sudo apt-get -y install fuse
-RUN sudo apt-get install unzip -y
 
